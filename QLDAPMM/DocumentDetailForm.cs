@@ -16,7 +16,7 @@ namespace QLDAPMM
             _db = db;
 
             // Wire up button events
-            
+
         }
 
         private void BtnLuu_Click(object sender, EventArgs e)
@@ -108,6 +108,21 @@ namespace QLDAPMM
             cmbMa.Text = doc.Ma;
             txtSTT.Text = doc.STT;
             // Populate other fields similarly
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox14_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
